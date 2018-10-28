@@ -1,0 +1,32 @@
+@media screen and (min-width: $s-screen) {
+
+    /* -------------------------------------------------------- */
+    /*               FRAMEWORK S-SIZE (min 480px)               */
+    /* -------------------------------------------------------- */
+
+    @include base-sS;
+    @include header-sS;
+    @include footer-sS;
+    @include nav-sS;
+
+  }
+
+@media screen and (min-width: $m-screen) {
+
+  /* -------------------------------------------------------- */
+  /*               FRAMEWORK M-SIZE (min 768px)               */
+  /* -------------------------------------------------------- */
+
+  @include base-mS;
+  @include header-mS;
+  @include footer-mS;
+  @include nav-mS;
+
+
+}
+
+@media screen and (min-width: $l-screen) {
+
+
+}
+
